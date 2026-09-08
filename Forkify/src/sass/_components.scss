@@ -211,3 +211,46 @@
     font-weight: 600;
   }
 }
+
+@media only screen and (max-width: $bp-medium) {
+  .add-recipe-window {
+    width: 90%;
+    padding: 4rem;
+  }
+
+  .upload {
+    gap: 3rem 4rem;
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  .add-recipe-window {
+    width: 92%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 4rem 2rem 2rem;
+  }
+
+  .upload {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+    &__column {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+
+      & button {
+        grid-column: 1;
+      }
+    }
+
+    &__heading {
+      grid-column: 1;
+      font-size: 1.8rem;
+    }
+
+    &__btn {
+      grid-column: 1;
+    }
+  }
+}

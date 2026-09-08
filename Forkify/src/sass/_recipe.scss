@@ -177,3 +177,86 @@
     font-weight: 700;
   }
 }
+
+@media only screen and (max-width: $bp-medium) {
+  .recipe {
+    &__fig {
+      height: 28rem;
+    }
+
+    &__title {
+      width: 70%;
+      font-size: 2.8rem;
+    }
+
+    &__details {
+      padding: 6rem 4rem 3rem;
+    }
+
+    &__ingredients {
+      padding: 4rem;
+    }
+
+    &__directions {
+      padding: 4rem 5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  .recipe {
+    &__fig {
+      height: 24rem;
+    }
+
+    &__title {
+      width: 85%;
+      font-size: 2.2rem;
+      line-height: 1.6;
+
+      span {
+        padding: 0.8rem 1.2rem;
+      }
+    }
+
+    &__details {
+      padding: 5rem 2rem 2.5rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    &__info {
+      font-size: 1.3rem;
+
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &__user-generated {
+      margin-right: 0;
+    }
+
+    &__ingredients {
+      padding: 3rem 2rem;
+    }
+
+    &__ingredient-list {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    &__ingredient {
+      font-size: 1.4rem;
+    }
+
+    &__directions {
+      padding: 3rem 2rem;
+    }
+
+    &__directions-text {
+      font-size: 1.5rem;
+    }
+  }
+}

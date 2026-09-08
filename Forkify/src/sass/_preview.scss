@@ -103,3 +103,26 @@
     }
   }
 }
+
+@media only screen and (max-width: $bp-small) {
+  .preview {
+    &__link {
+      padding: 1.5rem 2rem;
+    }
+
+    &__fig {
+      flex: 0 0 5rem;
+      height: 5rem;
+      margin-right: 1.5rem;
+    }
+
+    &__title {
+      font-size: 1.3rem;
+      max-width: 20rem;
+    }
+
+    &__publisher {
+      font-size: 1rem;
+    }
+  }
+}
