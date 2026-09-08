@@ -6,15 +6,15 @@ These projects help me practice JavaScript fundamentals, DOM manipulation, event
 
 ## 🚀 Projects
 
-| Project                                                      | Concepts Practiced                                                            | Live Demo                                       |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------- |
-| [Forkify](./Forkify)                                         | Modern JavaScript, ES6+, Modules, APIs, Async/Await, Parcel, DOM Manipulation | [Live Demo](https://arpit-forkify.netlify.app/) |
-| [Guess My Number](./Guess-My-Number)                         | DOM Manipulation, Events, Game Logic                                          | Coming Soon                                     |
-| [Modal](./Modal)                                             | DOM Manipulation, Events, Event Handling                                      | Coming Soon                                     |
-| [Pig Game](./Pig-Game)                                       | DOM Manipulation, Events, Game Logic                                          | Coming Soon                                     |
-| [Bankist - Arrays](./Bankist-App-Learning-Arrays)            | Arrays, Array Methods, DOM Manipulation                                       | Coming Soon                                     |
-| [Bankist - Advanced DOM](./Bankist-App-Learning-Advance-DOM) | Advanced DOM Manipulation, Events, UI                                         | Coming Soon                                     |
-| [Mapty](./Mapty)                                             | Geolocation API, Leaflet, Classes, DOM Manipulation                           | Coming Soon                                     |
+| Project                                                      | Concepts Practiced                                                            | Live Demo                                               |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------- |
+| [Forkify](./Forkify)                                         | Modern JavaScript, ES6+, Modules, APIs, Async/Await, Parcel, DOM Manipulation | [Live Demo](https://arpit-forkify.netlify.app/)         |
+| [Guess My Number](./Guess-My-Number)                         | DOM Manipulation, Events, Game Logic                                          | [Live Demo](https://arpit-guess-my-number.netlify.app/) |
+| [Modal](./Modal)                                             | DOM Manipulation, Events, Event Handling                                      |                                                         |
+| [Pig Game](./Pig-Game)                                       | DOM Manipulation, Events, Game Logic                                          |                                                         |
+| [Bankist - Arrays](./Bankist-App-Learning-Arrays)            | Arrays, Array Methods, DOM Manipulation                                       |                                                         |
+| [Bankist - Advanced DOM](./Bankist-App-Learning-Advance-DOM) | Advanced DOM Manipulation, Events, UI                                         |                                                         |
+| [Mapty](./Mapty)                                             | Geolocation API, Leaflet, Classes, DOM Manipulation                           | [Live Demo](https://arpit-mapty.netlify.app/)           |
 
 > **Note:** Live demo links will be added as each project is deployed.
 
